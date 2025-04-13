@@ -7,16 +7,15 @@ import "./globals.css";
 
 export const metadata = {
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
-  applicationName: "The AI Assisting Scientific Research Workshop",
+  applicationName: "Science and Human-AI Interaction Workshop",
   description:
-    "The AI Assisting Scientific Research Workshop",
+    "Exploring the intersection of scientific research and human-AI interaction",
   title: {
-    template: "%s | Sci-Hai",
-    absolute: "The AI Assisting Scientific Research Workshop",
+    template: "%s | SCI-HAI Workshop",
+    absolute: "SCI-HAI: Science and Human-AI Interaction Workshop",
   },
   openGraph: {
-    url: "sci-hai.github.io",
-    siteName: "Lit Canvas",
+    siteName: "SCI-HAI Workshop",
     locale: "en_US",
     type: "website",
   },
@@ -39,15 +38,15 @@ display: 'swap',
   
 const navbar = (
   <Navbar
-    logo={<b>Lit Canvas</b>}
-    logoLink="sci-hai.github.io"   
+    logo={<b>SCI-HAI Workshop</b>}
+    logoLink="/"   
     projectLink="https://github.com/sci-hai/sci-hai.github.io"
   />
 );
 const footer = (
   <Footer className="flex-col items-center md:items-start !py-4">
     <p className="text-sm">
-      © {new Date().getFullYear()} The Lit Canvas Project.
+      © {new Date().getFullYear()} SCI-HAI Workshop - Science and Human-AI Interaction
     </p>
   </Footer>
 );
