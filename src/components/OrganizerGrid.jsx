@@ -19,6 +19,11 @@ const organizers = [
     institution: "Stanford University",
     imageUrl: "/images/organizers/chenglei.jpg",
   },
+   {
+    name: "Akari Asai",
+    institution: "University of Washington",
+    imageUrl: "/images/organizers/akari.jpg",
+  },
   {
     name: "Jenny Zhang",
     institution: "University of British Columbia",
@@ -29,11 +34,44 @@ const organizers = [
     institution: "University of Washington",
     imageUrl: "/images/organizers/rulin.jpg",
   },
-  {
-    name: "Akari Asai",
-    institution: "University of Washington",
-    imageUrl: "/images/organizers/akari.jpg",
+ 
+ {
+    name: "Xuefei (Julie) Wang",
+    institution:  "Caltech",
+    imageUrl: "/images/organizers/xuefei.jpg",
   },
+  {
+    name: "Atharva Sehgal",
+    institution:  "UT Austin",
+    imageUrl: "/images/organizers/atharva.png",
+  },
+  {
+    name: "Linxi Zhao",
+    institution:  "Cornell University",
+    imageUrl: "/images/organizers/linxi.jpg",
+  },
+ {
+    name: "Yisong Yue",
+    institution:  "Caltech",
+    imageUrl: "/images/organizers/yisong.jpg",
+  },
+  {
+    name: "Mark Yatskar",
+    institution:  "University of Pennsyvania",
+    imageUrl: "/images/organizers/mark.jpg",
+  },
+
+ {
+    name: "Jake Gardner",
+    institution:  "University of Pennsyvania",
+    imageUrl: "/images/organizers/jake.jpg",
+  },
+  {
+    name: "Emma Strubell",
+    institution:  "CMU",
+    imageUrl: "/images/organizers/emma.jpg",
+  },
+ 
   {
     name: "Pang Wei Koh",
     institution: "University of Washington",

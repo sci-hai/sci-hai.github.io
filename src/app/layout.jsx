@@ -7,15 +7,15 @@ import "./globals.css";
 
 export const metadata = {
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
-  applicationName: "Science and Human-AI Interaction Workshop",
+  applicationName: "LLM for Scientific Discovery: Reasoning, Assistance, and Collaboration",
   description:
-    "Exploring the intersection of scientific research and human-AI interaction",
+    "Bridge the gap between AI researchers and domain scientists by fostering interdisciplinary dialogue on foundation models can enhance scientific reasoning, assist human researchers, and transform scientific workflows",
   title: {
-    template: "%s | SCI-HAI Workshop",
-    absolute: "SCI-HAI: Science and Human-AI Interaction Workshop",
+    template: "%s | LM4SCI Workshop",
+    absolute: "LM4SCI: LLM for Scientific Discovery",
   },
   openGraph: {
-    siteName: "SCI-HAI Workshop",
+    siteName: "LM4SCI Workshop",
     locale: "en_US",
     type: "website",
   },
@@ -38,15 +38,15 @@ display: 'swap',
   
 const navbar = (
   <Navbar
-    logo={<b>SCI-HAI Workshop</b>}
+    logo={<b>LM4Sci Workshop</b>}
     logoLink="/"   
-    projectLink="https://github.com/sci-hai/sci-hai.github.io"
+    projectLink="https://github.com/sci-hai/lm4sci.github.io"
   />
 );
 const footer = (
   <Footer className="flex-col items-center md:items-start !py-4">
     <p className="text-sm">
-      © {new Date().getFullYear()} SCI-HAI Workshop - Science and Human-AI Interaction
+      © {new Date().getFullYear()} LLM for Scientific Discovery
     </p>
   </Footer>
 );
@@ -65,7 +65,7 @@ export default async function RootLayout({ children }) {
           // banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/sci-hai/sci-hai.github.io"
+          docsRepositoryBase="https://github.com/lm4sci/lm4sci.github.io"
           editLink="Edit this page on GitHub"
           sidebar={{ defaultMenuCollapseLevel: 2 }}
           footer={footer}
