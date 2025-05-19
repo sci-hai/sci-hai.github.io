@@ -1,8 +1,8 @@
 import { OrganizerGridIndex } from "../components/OrganizerGrid";
 
 export const metadata = {
-  title: "SCI-HAI Workshop",
-  description: "The First Workshop on AI Assisting Scientific Research",
+  title: "LM4Sci Workshop",
+  description: "LLM for Scientific Discovery: Reasoning, Assistance, and Collaboration",
 };
 
 export default function IndexPage() {
@@ -25,13 +25,13 @@ export default function IndexPage() {
             <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">SCI-HAI</span>{" "}
+                  <span className="block xl:inline">LM4Sci</span>{" "}
                   <span className="block text-indigo-600 xl:inline">
                     Workshop
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                  The First Workshop on AI Assisting Scientific Research -
+                  The workshop on Large Language Modeling for Scientific Discovery -  
                   exploring the intersection of artificial intelligence and
                   scientific discovery.
                 </p>
@@ -61,13 +61,13 @@ export default function IndexPage() {
           <div className="h-56 w-full bg-indigo-900 sm:h-72 md:h-96 lg:h-full lg:w-full">
             <div className="flex h-full items-center justify-center">
               <div className="p-8 text-center text-white">
-                <div className="text-5xl font-bold mb-4">2025</div>
+                <div className="text-5xl font-bold mb-4">LM4Sci 2025</div>
                 <div className="text-2xl mb-6">
-                  Science & Human-AI Interaction
+                  LLM for Scientific Discovery
                 </div>
-                <div className="text-xl opacity-80">Date: To be announced</div>
+                <div className="text-xl opacity-80">Date: October 10, 2025</div>
                 <div className="text-xl opacity-80">
-                  Location: To be announced
+                  Location: Montreal, Canada (co-located with COLM '25)
                 </div>
               </div>
             </div>
@@ -83,11 +83,11 @@ export default function IndexPage() {
               About the Workshop
             </h2>
             <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
-              AI Assisting Scientific Research
+              LLM for Scientific Discovery
             </p>
             <p className="mt-4 max-w-3xl text-xl text-gray-500 lg:mx-auto">
-              Welcome to the First Workshop on AI Assisting Scientific Research
-              (SCI-HAI), a forum for researchers, practitioners, and
+              Welcome the  Workshop on LLM for Scientific Discovery: Reasoning, Assistance, and Collaboration,
+              (LM4Sci), a forum for researchers, practitioners, and
               stakeholders working at the intersection of artificial
               intelligence and scientific discovery.
             </p>
@@ -374,7 +374,7 @@ export default function IndexPage() {
                   Submission Deadline
                 </h3>
                 <div className="mt-2 text-3xl font-bold text-indigo-600">
-                  TBA
+                  June 23, 2025
                 </div>
               </div>
               <div className="rounded-lg border border-gray-200 bg-white p-6 text-center shadow-sm">
@@ -382,7 +382,7 @@ export default function IndexPage() {
                   Notification
                 </h3>
                 <div className="mt-2 text-3xl font-bold text-indigo-600">
-                  TBA
+                  July 24, 2025 
                 </div>
               </div>
               <div className="rounded-lg border border-gray-200 bg-white p-6 text-center shadow-sm">
@@ -390,13 +390,13 @@ export default function IndexPage() {
                   Camera-Ready
                 </h3>
                 <div className="mt-2 text-3xl font-bold text-indigo-600">
-                  TBA
-                </div>
+		Aug 7, 2025                
+                  </div>
               </div>
               <div className="rounded-lg border border-gray-200 bg-white p-6 text-center shadow-sm">
                 <h3 className="text-lg font-medium text-gray-900">Workshop</h3>
                 <div className="mt-2 text-3xl font-bold text-indigo-600">
-                  TBA
+                  Oct 10, 2025
                 </div>
               </div>
             </div>
