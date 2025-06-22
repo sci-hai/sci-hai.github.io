@@ -11,4 +11,7 @@ export default {
     schedule: {
         title: 'Schedule',
     },
+    faq: {
+        title: 'FAQ',
+    },
 }
