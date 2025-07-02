@@ -89,7 +89,7 @@ const organizers = [
   },
   {
     name: "Arman Cohan",
-    institution: "Yale University & Ai2",
+    institution: "Yale University",
     imageUrl: "/images/organizers/arman.jpg",
   },
   {
